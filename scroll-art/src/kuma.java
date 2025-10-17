@@ -25,7 +25,7 @@ public class App {
         }
         System.out.println(new String(nextRows[0]));
         shiftRowsUp(nextRows);
-        Thread.sleep(50);
+        Thread.sleep(100);
     }
     }
 
@@ -142,4 +142,5 @@ static char[] emptyRow() {
         }
         return 80; // fallback
     }
+
     }
