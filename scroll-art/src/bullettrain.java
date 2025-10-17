@@ -6,7 +6,7 @@ public class bullettrain {
         while (true) {
         for (int i = 0; i < width; i++) {
         System.out.print("\r" + " ".repeat(i) + train);
-        Thread.sleep(100);
+        Thread.sleep(50);
         }
     }
     }
