@@ -4,10 +4,11 @@ public class bullettrain {
         String train = "kw╭――――――――――=╮"; //The ends look really boxy in monospace...
 
         while (true) {
-        for (int i = 0; i < width; i++) {
+        for (int i = 0; i < width - train.length(); i++) {
         System.out.print("\r" + " ".repeat(i) + train);
         Thread.sleep(50);
         }
+            System.out.println("");
     }
     }
     public static int getTerminalWidth() {
