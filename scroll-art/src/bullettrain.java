@@ -1,7 +1,7 @@
 public class bullettrain {
     static final int width = getTerminalWidth() - 1;
     public static void main(String[] args) throws InterruptedException {
-        String train = "╭――――――――――=╮"; //The ends look really boxy in monospace...
+        String train = "kw╭――――――――――=╮"; //The ends look really boxy in monospace...
 
         while (true) {
         for (int i = 0; i < width; i++) {
